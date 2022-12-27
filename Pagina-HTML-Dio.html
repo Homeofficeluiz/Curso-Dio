@@ -31,13 +31,14 @@
       p {
         margin-left: 40px;
         margin-right: 40px;
+        
       }
 
       b {
         color: blue;
       }
 
-      ul {
+      ul, ol, li {
 
         margin-left: 30px;
         margin-right: 30px;
@@ -156,7 +157,7 @@
         <div class="Flex-Item">
           <h1 id="Estrutura"><u>Estrutura básica do HTML</u></h1>
           <h4>Elementos de composição básica do HTML</h4>
-          <p><b>Os elementos básicos são:</p></b>
+          <p><strong>Os elementos básicos são:</strong></p>
           <ul>
             <li><b>&lt;html&gt;&lt;/html&gt;</b> — Esse elemento envolve todo o conteúdo da página e às vezes é conhecido
               como o elemento raiz.</li>
@@ -209,10 +210,10 @@
           <p>Com eles podemos identificar melhor um elemento, informar qual arquivo aquela tag deve utilizar, indicar o
             tipo de um campo de texto, etc…</p>
           <br>
-          <p><b>Há dois tipos de atributos no HTML, os globais que são aceitos por todas as tags, como por exemplo:</b>
+          <p><strong>Há dois tipos de atributos no HTML, os globais que são aceitos por todas as tags, como por exemplo:</strong>
             class, id, lang, style e também existem os específicos que somente algumas tags possuem, como src, href entre
             outros.</p>
-            <br>
+          <br>
           <ul>
             <li><b>Class=</b> <mark>”NomeDaClasse”</mark> - Classes são como classificações de uma tag/elemento, para que
               no CSS estilizar uma tag específica, ou um conjunto de tags. Também é possível usar no JavaScript para
@@ -244,7 +245,7 @@
           <h4>Tags HTML de título para textos</h4>
           <p>As tags de título possuem valor semântico, variando entre seis níveis hierárquicos. É Importante entender
             como funcionam, e fazer uma utilização adequada.</p>
-          <p><b>Para definir títulos, utilizamos as tags:</p></b></p>
+          <p><strong>Para definir títulos, utilizamos as tags:</strong></p>
           <ul>
             <li><b>&lt;h1&gt;</b><b>&lt;/h1&gt;</b> - Título de maior valor hierárquico</li>
             <li><b>&lt;h2&gt;</b><b>&lt;/h2&gt;</b></li>
@@ -260,9 +261,8 @@
 
           <h4>Tags HTML de texto</h4>
 
-
           <p>As tags de texto definem textos, estilos de fonte, parágrafos, marcações, etc.</p>
-          <p><b>Vamos conhecê-las:</b></p>
+          <p><strong>Vamos conhecê-las:</strong></p>
           <ul>
             <li><b>&lt;p&gt;</b><b>&lt;/p&gt;</b> – Principal tag de texto, compõe um parágrafo</li>
             <br>
@@ -288,11 +288,71 @@
 
         <div class="Flex-Item">
           <h1 id="Listas"><u>Listas ordernadas e não ordenadas</u></h1>
+          <h4>Lista Ordenada</h4>
+          <p>O Elemento HTML <b>&lt;ol&gt;</b> (ou Elemento HTML de lista ordenada) representa uma lista de itens ordenados. 
+             De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede, que pode
+             ser de qualquer tipo, como numerais, letras, algarismos romanos, ou simples símbolos.</p>
+
+          <p><strong>Exemplo:</strong></p>
+          <p><b>&lt;ol&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Item 01 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Item 02 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Item 03 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Item 04 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;/ol&gt;</b></p>
+
+          <p><strong>Ficará assim no site</strong></p>
+            <b>
+              <ol>
+                <li>Item 01</li>
+                <li>Item 02</li>
+                <li>Item 03</li>
+                <li>Item 04</li>
+              </ol>
+            </b>
+
+          <h4>Lista não ordenada</h4>
+          <p>As listas não numeradas são usadas para listar itens, sem se preocupar com sua sequência. 
+             Chamamos de lista de marcadores apenas.</p> 
+          <p><strong> Tags usadas para criar uma lista não ordenada são:</strong></p>
+          <ul>
+             <li><b>&lt;ul&gt;</b> e <b>&lt;li&gt;</b> - A tag <b>&lt;ul&gt;</b> é usada para definir a lista e a tag</li>
+             <li><b>&lt;li&gt;</b> é usada para cada item da lista.</li>
+          </ul>
+
+          <p><strong>Exemplo:</strong></p>
+          <p><b>&lt;ul&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Exemplo 01 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Exemplo 02 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Exemplo 03 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;li&gt;</b><strong> Exemplo 04 </strong><b>&lt;/li&gt;</b></p>
+          <p><b>&lt;/ul&gt;</b></p>
+
+          <p><strong>Ficará assim no site</strong></p>
+          <b>
+            <ul>
+              <li> Exemplo 01</li>
+              <li> Exemplo 02</li>
+              <li> Exemplo 03</li>
+              <li> Exemplo 04</li>
+            </ul>
+          </b>
+
+          
           <small class="small"><a href="#inicio">(Voltar)</a></small>
         </div>
 
         <div class="Flex-Item">
           <h1 id="Links"><u>Links</u></h1>
+          <h4> Definição do Elemento HTML Link</h4>
+          <p>O Elemento HTML <b>&lt;Link&gt;</b> especifica as relações entre o documento atual e um recurso externo. 
+            Possíveis usos para este elemento incluem a definição de uma estrutura relacional para navegação. 
+            Este elemento é mais usado para vincular as folhas de estilo.</p>
+          <p><strong>Fazendo um link em HTML:</strong></p>
+          <p>No HTML, os links são definidos pela tag <b>&lt;a&gt;</b>. Dentro dessa tag incluímos o atributo <mark>href</mark> (Hypertext Reference), que é o endereço de destino do link.</p>
+          <p><strong>Exemplo:</strong></p>
+          <p><b>&lt;a</b> <mark>href</mark>="url"<b>&gt;</b><strong>Exemplo de Link</strong><b>&lt;/a&gt;</b></p>
+        <br>
           <small class="small"><a href="#inicio">(Voltar)</a></small>
         </div>
 
