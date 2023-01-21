@@ -1,77 +1,23 @@
-Trilha HTML - Dio.me
-Módulo 02 - HTML I - Conceitos Básicos
+Site Completo com HTML
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
+    O Projeto é um site HTML para uma Clinica Veterinária que seque as diretrizes do desafio "trilha html - módulo 2". As tags de formatação de texto, formatação de imagens e links aprendidos ao longo do curso foram incorporadas ao projeto.
 
-    Formulários
-    Estruturação e formatação de texto
-    Mídias
-    Tabelas
+    Ao todo o site contém 4 paginas html + o CSS pré fornecido com algumas adições.
 
-Além de outros recursos falados nas aulas!
-Instruções
+Quanto ao site, segue:
 
-    Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-    Este site deve conter o seguinte menu de navegação:
-        Página Principal
-        Sobre a clínica
-        Horário de Atendimento
-        Contato
-    Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+1 - Home da Clínica com Algumas fotos dos serviços prestados e depoimentos dos clientes.
 
-Abaixo como cada página deve ser criada e estruturada.
-Estrutura das páginas
+    Página Principal
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo template.html para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+2 - Sobre a Clínica: Página contendo a missão da empresa e informações de serviços prestados.
 
-Estrutura
+    Sobre Nós
 
-* No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma.
+3 - Os horários de funcionamento e valores dos serviços.
 
-No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada página ficará uma imagem, no Footer informações de contato, e o Content é o conteúdo de cada página.
-Página Principal
+    Atendimento
 
-    Deve ter uma imagem no Header.
-    Em Content uma breve descrição sobre a clínica.
-    Menu e Footer padrões em todas as páginas.
+4 - Área de Contatos: Contendo um iframe do Google Maps para mostrar a localização, todos os dados de contatos da Clínica e um formuário para menságens via E-mail.
 
-Sobre a clínica
-
-    Deve ter uma imagem diferente no Header.
-    Em Content um texto falando sobre a clínica.
-    Menu e Footer padrões em todas as páginas.
-
-Horário de Atendimento
-
-    Deve ter uma imagem diferente no Header.
-    Em Content um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-Serviços 	Segunda a Sexta 	Sábados 	Feriados
-Clínica geral 	08h - 19h 	08h - 14h 	08h - 14h
-Psicologia 	08h - 19h 	08h - 14h 	08h - 14h
-Pediatria 	08h - 19h 	08h - 18h 	-
-Oftalmologia 	08h - 19h 	08h - 18h 	-
-			
-
-    Menu e Footer padrões em todas as páginas.
-
-Contato
-
-    Deve ter uma imagem diferente no Header.
-
-    Em Content deve ter:
-        Os telefones de contato (celular e whatsapp)
-        Endereço completo da clínica
-        Um Iframe com o Google Maps apontando o endereço da clínica
-        Um formulário de contato com:
-            Nome (type="text")
-            E-mail (type="email")
-            Assunto (type="text")
-            Mensagem (textarea)
-            Botões de envias e limpar formulário
-
-    Menu e Footer padrões em todas as páginas.
-
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site!
-
-Bora pra cima!
+    Contato
